@@ -33,6 +33,11 @@
   font-weight: 500 !important;
 }
 
+.linkTugas {
+  color: black;
+  text-decoration: none;
+}
+
 .authentication {
   display: flex;
   width: 100%;

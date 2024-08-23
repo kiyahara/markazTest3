@@ -15,6 +15,12 @@ export default function NavbarComponent() {
         />
       </div>
       <div className="category">
+        <a className="linkTugas" href="/Tugas1">
+          Tugas 1
+        </a>
+        <a className="linkTugas" href="/Tugas2">
+          Tugas 2
+        </a>
         <p>Kategori</p>
         <p>Template</p>
         <p>Harga</p>

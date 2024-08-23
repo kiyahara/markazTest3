@@ -1,6 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+
+## Tugas Nomor 1
+
+Kalian Bisa Pencet pada tombol Tugas 1 di Navbar
+
+## Tugas Nomor 2
+
+Kalian Bisa Pencet pada tombol Tugas 2 di Navbar
+
+## Getting Started 
 
 First, run the development server:
 

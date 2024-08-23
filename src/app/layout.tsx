@@ -11,6 +11,9 @@ const font = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Homepage - Markaz",
   description: "Fenri Mintardja",
+  icons: {
+    icon: "favicon.ico",
+  },
 };
 
 export default function RootLayout({
