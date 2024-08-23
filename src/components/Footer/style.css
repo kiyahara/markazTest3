@@ -1,0 +1,29 @@
+.FooterContainerMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.FooterContainerBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.FooterRow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.TitleFooter {
+  color: rgba(166, 166, 166, 1);
+  font-size: 24px;
+}
+
+.SubTitleFooter {
+  color: rgba(166, 166, 166, 1);
+  font-size: 12px;
+}

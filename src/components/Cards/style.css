@@ -1,0 +1,79 @@
+.CardContainerMain {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.CardMainTitle {
+  margin: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 52px;
+  text-align: start;
+  font-family: "PlusJakartaSans";
+}
+
+.CardsContainerBody {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  gap: 20px;
+  /* padding-top: 30px; */
+  padding: 30px;
+}
+
+.CardImage {
+  width: 100%;
+  /* height: 100%; */
+  border-radius: 58px;
+}
+
+.CardData {
+  width: 100%;
+  /* max-width: 416px; */
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.pinkColorCard {
+  background-color: rgba(252, 89, 255, 0.2);
+}
+
+.greenColorCard {
+  background-color: rgba(89, 255, 145, 0.3);
+}
+
+.blueColorCard {
+  background-color: rgba(89, 116, 255, 0.3);
+}
+
+.colorGradient {
+  font-family: "PlusJakartaSans";
+  background: linear-gradient(98.21deg, #fc59ff 0%, #5974ff 109.15%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  .CardsContainerBody {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* padding-top: 30px; */
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .CardData {
+    width: 100%;
+    max-width: 416px;
+    border-radius: 16px;
+    padding: 20px;
+  }
+}
